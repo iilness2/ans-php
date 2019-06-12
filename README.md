@@ -30,12 +30,9 @@ Including an example of how to use your role (for instance, with variables passe
          - { role: username.rolename, x: 42 }
 
 ## License
-### -------
-
 GPLv3
 
 ## Author Information
-### ------------------
 Andre Aliaman
 - Email: andre.aliaman90@gmail.com
 - Github: https://github.com/iilness2
