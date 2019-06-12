@@ -1,2 +1,2 @@
 ---
-# tasks file for ans-php
+- include: install-phpmain.yml
