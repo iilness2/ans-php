@@ -1,7 +1,9 @@
 Role Name
 =========
 
-A brief description of the role goes here.
+This is ansible role for setup initial ubuntu, I used this config for basic setup ubuntu server a long time ago.
+Share it here so everybody can use it or give better enhancement
+Tested at AWS EC2 Ubuntu
 
 Requirements
 ------------
@@ -27,12 +29,14 @@ Including an example of how to use your role (for instance, with variables passe
       roles:
          - { role: username.rolename, x: 42 }
 
-License
--------
+## License
+### -------
 
-BSD
+GPLv3
 
-Author Information
-------------------
-
-An optional section for the role authors to include contact information, or a website (HTML is not allowed).
+## Author Information
+### ------------------
+Andre Aliaman
+- Email: andre.aliaman90@gmail.com
+- Github: https://github.com/iilness2
+- Linkedin: https://www.linkedin.com/in/andre-aliaman/
