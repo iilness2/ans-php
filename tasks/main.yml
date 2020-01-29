@@ -2,3 +2,4 @@
 - include: install-phpmain.yml
   notify:
    - enabled php-fpm
+   - restart apache2

@@ -5,3 +5,6 @@
 
 - name: enabled php-fpm
   apache2_module: name=proxy_fcgi state=present
+
+- name: restart apache2
+  service: name=apache2 state=restarted
