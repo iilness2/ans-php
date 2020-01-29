@@ -5,3 +5,5 @@
   shell: a2enmod actions proxy_fcgi
   notify:
    - restart apache2
+  become: true
+  become_user: root
