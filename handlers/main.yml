@@ -2,3 +2,6 @@
 # handlers file for ans-php
 - name: enabled mod_rewrite
   apache2_module: name=rewrite state=present
+
+- name: enabled php-fpm
+  apache2_module: name=proxy_fcgi state=present

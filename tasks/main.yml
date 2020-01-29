@@ -1,4 +1,4 @@
 ---
 - include: install-phpmain.yml
   notify:
-   - enabled mod_rewrite
+   - enabled php-fpm
